@@ -3,6 +3,12 @@ An experimental algorithmic trading utility tool. For use with
 Interactive Brokers. Coded in Python 3.7.1 - uses the ib_insync API 
 wrapper to make communication with the IB API many times easier.
 
+# Important Notice
+Looking for a working version? Look in the subdir v0 - you'll find some 
+code there. I want to rework how I organize things and change some core 
+ideas about how data is handled within individual scripts. v0 feels 
+clunky and I don't like it.
+
 ## The Flow
 There are three main steps.
 1. (feed.py) Get data as fast & frequently as possible. Save this data 
